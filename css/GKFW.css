@@ -3,7 +3,6 @@
 ------------------------*/
 
 /* RESET */
-
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +17,7 @@
 
 /* CLASSIC */
 .dbcl{
+    min-height: 30px;
     color: black;
     border: 1px solid black;
     background-color: white;
@@ -50,6 +50,7 @@
     border: 1px solid #48ffe7;
     background-color: #4b1b48;
 }
+
 /* STRUCTURE */
 
 .row{
@@ -157,10 +158,6 @@
 .col-offset-11{
     margin-left: calc(100% /12 * 11);
     max-width: calc(100% /12 * 11);
-}
-.col-offset-12{
-    margin-left: calc(100% /12 * 12);
-    max-width: calc(100% /12 * 12);
 }
 
 /* CONTENT ALIGNMENT */
