@@ -1,3 +1,158 @@
 /* -----------------------
  DEVELOPED BY GiaKing_22 
 ------------------------*/
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CLEANING */
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+/* DEBUG THEMES */
+
+/* CLASSIC */
+.dbcl{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* DARK MODE */
+.dbdm{
+    color: lightgray;
+    border: 1px solid lightgray;
+    background-color: black;
+}
+
+/* VB THEME */
+.dbvb{
+    color: #007acc;
+    border: 1px solid #ce9178;
+    background-color: #1e1e1e;
+}
+
+/* CyberPunk_Colors */
+.dbcp{
+    color: #abd805;
+    border: 1px solid #abd805;
+    background-color: #351254;
+}
+
+/* STRUCTURE */
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+.column{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* WIDTHS (BASED_ON_12) */
+
+.col-1{
+    flex-basis: calc(100% /12 * 1);
+    max-width: calc(100% /12 * 1);
+}
+.col-2{
+    flex-basis: calc(100% /12 * 2);
+    max-width: calc(100% /12 * 2);
+}
+.col-3{
+    flex-basis: calc(100% /12 * 3);
+    max-width: calc(100% /12 * 3);
+}
+.col-4{
+    flex-basis: calc(100% /12 * 4);
+    max-width: calc(100% /12 * 4);
+}
+.col-5{
+    flex-basis: calc(100% /12 * 5);
+    max-width: calc(100% /12 * 5);
+}
+.col-6{
+    flex-basis: calc(100% /12 * 6);
+    max-width: calc(100% /12 * 6);
+}
+.col-7{
+    flex-basis: calc(100% /12 * 7);
+    max-width: calc(100% /12 * 7);
+}
+.col-8{
+    flex-basis: calc(100% /12 * 8);
+    max-width: calc(100% /12 * 8);
+}
+.col-9{
+    flex-basis: calc(100% /12 * 9);
+    max-width: calc(100% /12 * 9);
+}
+.col-10{
+    flex-basis: calc(100% /12 * 10);
+    max-width: calc(100% /12 * 10);
+}
+.col-11{
+    flex-basis: calc(100% /12 * 11);
+    max-width: calc(100% /12 * 11);
+}
+.col-12{
+    flex-basis: calc(100% /12 * 12);
+    max-width: calc(100% /12 * 12);
+}
+
+/* OFFSETS (BASED_ON_12) */
+
+.col-1{
+    margin-left: calc(100% /12 * 1);
+    max-width: calc(100% /12 * 1);
+}
+.col-2{
+    margin-left: calc(100% /12 * 2);
+    max-width: calc(100% /12 * 2);
+}
+.col-3{
+    margin-left: calc(100% /12 * 3);
+    max-width: calc(100% /12 * 3);
+}
+.col-4{
+    margin-left: calc(100% /12 * 4);
+    max-width: calc(100% /12 * 4);
+}
+.col-5{
+    margin-left: calc(100% /12 * 5);
+    max-width: calc(100% /12 * 5);
+}
+.col-6{
+    margin-left: calc(100% /12 * 6);
+    max-width: calc(100% /12 * 6);
+}
+.col-7{
+    margin-left: calc(100% /12 * 7);
+    max-width: calc(100% /12 * 7);
+}
+.col-8{
+    margin-left: calc(100% /12 * 8);
+    max-width: calc(100% /12 * 8);
+}
+.col-9{
+    margin-left: calc(100% /12 * 9);
+    max-width: calc(100% /12 * 9);
+}
+.col-10{
+    margin-left: calc(100% /12 * 10);
+    max-width: calc(100% /12 * 10);
+}
+.col-11{
+    margin-left: calc(100% /12 * 11);
+    max-width: calc(100% /12 * 11);
+}
+.col-12{
+    margin-left: calc(100% /12 * 12);
+    max-width: calc(100% /12 * 12);
+}
