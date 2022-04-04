@@ -30,7 +30,7 @@
     background-color: black;
 }
 
-/* VB THEME */
+/* VisualBasic THEME */
 .dbvb{
     color: #007acc;
     border: 1px solid #ce9178;
@@ -44,6 +44,12 @@
     background-color: #351254;
 }
 
+/* VAPORWAVE */
+.dbvpwv{
+    color: #48ffe7;
+    border: 1px solid #48ffe7;
+    background-color: #4b1b48;
+}
 /* STRUCTURE */
 
 .row{
