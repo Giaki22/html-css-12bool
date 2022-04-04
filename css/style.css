@@ -1,0 +1,14 @@
+body{
+    color: #abd805;
+    background-color: #351254; 
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row.col-6{
+    padding: 10px;
+}
+.row{
+    min-height: 35px;
+}
