@@ -159,9 +159,11 @@
 
 /* CONTENT ALIGNMENT */
 .cntr{
+    display: flex;
     justify-content: center;
 }
 .cntr-all{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
